@@ -1,0 +1,252 @@
+ :root{
+  --brand:#0a2640;          
+  --light:#f6f9fc;        
+  --muted:#6b7280;         
+  --pill:#f59e0b;         
+  --card:#ffffff;
+  --soft:#eef5fb;        
+  --dark:#0b0b0b;
+  --radius: 40px;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --rounded: 50px;
+}
+
+Baze
+body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;}
+.brand{letter-spacing:.3px}
+.text-muted{color:var(--muted)!important}
+
+ body{
+  border: 1px solid red;
+ }
+.hero{
+  
+  position:relative;
+  padding: 110px 0;
+  min-height: 72vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.hero .overlay{
+  position:absolute; inset:0;
+  background: linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.45));
+  z-index:0;
+}
+
+.hero::before{
+  content:"";
+  position:absolute; inset:0;
+  background: url(./image/home.jpg) center/cover no-repeat;
+  z-index:-1;
+}
+
+
+.card-lift{
+  border:0; background:var(--card); border-radius:var(--radius);
+  box-shadow: 0 10px 30px rgba(10,38,64,.06);
+}
+.card-lift .card-img-top{height:200px; object-fit:cover}
+
+
+.pill-shape{
+  width:90px; height:140px;
+  border-radius:22px;
+  background:var(--pill);
+}
+
+
+.features{ 
+  background:var(--soft)
+}
+
+.feature-card{
+  background:#fff; 
+  border-radius:var(--radius);
+  padding:28px; 
+  box-shadow:0 6px 22px rgba(10,38,64,.06);
+}
+.icon-wrap{
+  width:56px; height:56px; 
+  border-radius:14px;
+  background:var(--soft); 
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
+  margin-bottom:14px;
+  
+}
+.icon-wrap img{ 
+  max-width:28px; 
+  max-height:28px
+}
+
+.experience .exp-media{
+  position:relative; 
+  background:#eee; 
+  min-height:380px; 
+  overflow:hidden;
+}
+.experience .exp-media .stripe{
+  position:absolute; 
+  left:0; 
+  top:0; 
+  bottom:0; 
+  width:100px; 
+  background:var(--pill);
+}
+.experience .exp-media .exp-photo{
+  position:absolute; 
+  right:12px; 
+  top:12px; 
+  
+  bottom:12px; 
+  width:auto; 
+  height:calc(100% - 24px);
+  object-fit:cover; 
+  border-radius:14px; 
+  filter:grayscale(100%);
+}
+
+
+.info-card{
+  background:#e9f2fb;
+  padding:32px; 
+  border:0; 
+  box-shadow:0 8px 26px rgba(10,38,64,.06);
+}
+.button{
+  gap: 400px;
+}
+
+
+
+
+
+.tag{
+  display:inline-block; 
+  padding:.4rem .8rem; 
+  border-radius:999px;
+  background:#fff; color:#1f2937; 
+  font-weight:600; font-size:.85rem;
+  box-shadow:0 4px 12px rgba(10,38,64,.06);
+}
+.image-card{background:#fff; 
+  box-shadow:0 8px 26px rgba(10,38,64,.06)
+}
+
+.object-fit-cover{object-fit:cover}
+
+
+.cta-left{
+  min-height:320px; 
+  position:relative;
+}
+.cta-left::before{
+  content:"";
+  position:absolute; 
+  inset:0;
+  background:
+
+    url('/image/tiwa.png') center/cover no-repeat;
+  
+}  .cta-right{
+  background:var(--pill); 
+  color:#fff; 
+  min-height:320px
+}
+
+.cta-right .btn{
+  border-radius:999px; 
+  padding:.7rem 1.3rem
+} 
+
+.avatar{
+ width:56px;
+ height:56px; 
+ object-fit:cover
+}
+
+
+.video-card{background:#eee; 
+  height:320px; 
+  overflow:hidden
+}
+
+.play-btn{
+  position:absolute; 
+  left:50%; top:50%; 
+  transform:translate(-50%,-50%);
+  width:68px; 
+  height:68px; border-radius:50%;
+  background:#fff; 
+  border:0; 
+  box-shadow:0 6px 20px rgba(0,0,0,.18);
+}
+.play-btn::before{
+  content:"";
+   display:block;
+    margin: auto; 
+    width:0; height:0;
+  border-left:16px solid #000; 
+  border-top:10px solid transparent; 
+  border-bottom:10px solid transparent;
+  position:relative; 
+  left:27px; 
+  top:24px;
+}
+
+.blog-img{
+ height:160px; 
+ object-fit:cover
+}
+
+.blog-card{
+  background:#fff; 
+  box-shadow:0 8px 26px rgba(10,38,64,.06)
+}
+
+
+
+
+
+.site-footer{
+ background:var(--brand)
+}
+
+.footer-links a{
+ color:#cfe1ee; 
+ text-decoration:none
+}
+
+.footer-links a:hover{
+ color:#fff
+}
+
+.footer-left-orange{
+  position: relative;
+  top: 0px;
+  right: 0px;
+
+
+}
+/* 
+.shape{
+  position: relative;
+  top: 224px;
+  left: 0px;
+} */
+
+.social-placeholder{
+  display:inline-block; 
+  width:36px; 
+  height:36px; 
+  border-radius:10px;
+  background:#0f3952;   
+  border:1px solid rgba(255,255,255,.15);
+}
+.footer-bottom{background:#0a2234} */
+
+.rounded-4{border-radius:var(--radius)!important}
