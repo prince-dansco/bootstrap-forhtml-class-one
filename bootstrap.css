@@ -9,7 +9,7 @@
   --radius: 40px;
   --fw-semibold: 600;
   --fw-bold: 700;
-  --rounded: 50px;
+  --rounded: 500px;
 }
 
 Baze
@@ -20,6 +20,9 @@ body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif
  body{
   /* border: 1px solid red;                                                            */
  }
+ /* .btn{
+  border-radius: 50px;
+ } */
 .hero{
   
   position:relative;
@@ -214,6 +217,7 @@ body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif
 
 .site-footer{
  background:var(--brand)
+ 
 }
 
 .footer-links a{
@@ -235,7 +239,7 @@ body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif
  
 .shape{
   position: relative;
-  top: 50px;
+  top: 45px;
   left: 0px;
 }
 
