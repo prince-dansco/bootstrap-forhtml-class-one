@@ -18,7 +18,7 @@ body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif
 .text-muted{color:var(--muted)!important}
 
  body{
-  border: 1px solid red;
+  /* border: 1px solid red;                                                            */
  }
 .hero{
   
@@ -232,12 +232,12 @@ body{font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif
 
 
 }
-/* 
+ 
 .shape{
   position: relative;
-  top: 224px;
+  top: 50px;
   left: 0px;
-} */
+}
 
 .social-placeholder{
   display:inline-block; 
